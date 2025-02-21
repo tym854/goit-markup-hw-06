@@ -360,7 +360,9 @@ address ul li {
         width: 24px;
         height: 24px;
         border: none;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .nav-button-group {
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .nav-button:hover + .nav-button-group {
